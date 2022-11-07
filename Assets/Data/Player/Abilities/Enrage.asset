@@ -1,0 +1,432 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11e1a3c8844248b1bdb19c81c71fca5c, type: 3}
+  m_Name: Enrage
+  m_EditorClassIdentifier: 
+  container: {fileID: 0}
+  name: Enrage
+  processes:
+  - hash: -1529330207
+    table:
+      intFields:
+      - name: Max Charges
+        value: -1
+      floatFields: []
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: KillCharges
+    isFolded: 0
+  - hash: 733269266
+    table:
+      intFields: []
+      floatFields:
+      - name: Max Health
+        value: -1
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: SetMaxHealth
+    isFolded: 0
+  - hash: -1187905610
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Procedure Name
+        value: Dash
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Exclusive
+    isFolded: 0
+  - hash: 1791244492
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Button
+        value: Enrage
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: GetButtonDown
+    isFolded: 0
+  - hash: 1882146220
+    table:
+      intFields: []
+      floatFields:
+      - name: Cooldown
+        value: 3
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Cooldown
+    isFolded: 0
+  - hash: -1923584102
+    table:
+      intFields: []
+      floatFields:
+      - name: Cooldown
+        value: 3
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Cooldown
+    isFolded: 0
+  - hash: 1941082907
+    table:
+      intFields: []
+      floatFields:
+      - name: Cooldown
+        value: 6
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Cooldown
+    isFolded: 0
+  - hash: -697400711
+    table:
+      intFields: []
+      floatFields:
+      - name: Cooldown
+        value: 1
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Cooldown
+    isFolded: 0
+  - hash: 717995008
+    table:
+      intFields: []
+      floatFields:
+      - name: Cooldown
+        value: 1
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Cooldown
+    isFolded: 0
+  - hash: -1626276468
+    table:
+      intFields:
+      - name: Charges Per Shield
+        value: 5
+      floatFields:
+      - name: Health Per Charge
+        value: 10
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Enrage
+    isFolded: 0
+  - hash: 501385148
+    table:
+      intFields:
+      - name: Charges Per Shield
+        value: 10
+      floatFields:
+      - name: Health Per Charge
+        value: 5
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Enrage
+    isFolded: 0
+  - hash: -1388337097
+    table:
+      intFields: []
+      floatFields:
+      - name: Amount
+        value: 20
+      boolFields: []
+      stringFields:
+      - name: Procedure Name
+        value: Spear
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: RegenerateStamina
+    isFolded: 0
+  - hash: 515249683
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Procedure Name
+        value: Spear
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: AdditionalKillCharge
+    isFolded: 0
+  - hash: 932794234
+    table:
+      intFields: []
+      floatFields:
+      - name: Multiplier Ratio
+        value: 20
+      boolFields: []
+      stringFields:
+      - name: Procedure Name
+        value: Spear
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: MissingHealthDamageMultiplier
+    isFolded: 0
+  - hash: 366675487
+    table:
+      intFields:
+      - name: Charges Per Shield
+        value: 5
+      floatFields:
+      - name: Health Per Charge
+        value: 10
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Enrage
+    isFolded: 0
+  - hash: 2074980657
+    table:
+      intFields:
+      - name: Variation
+        value: 0
+      - name: Upgrade
+        value: 0
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Procedure Name
+        value: Melee
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: SelectVariation
+    isFolded: 0
+  - hash: -1101511723
+    table:
+      intFields:
+      - name: Variation
+        value: 0
+      - name: Upgrade
+        value: 1
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Procedure Name
+        value: Melee
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: SelectVariation
+    isFolded: 0
+  - hash: 1314825111
+    table:
+      intFields:
+      - name: Variation
+        value: 0
+      - name: Upgrade
+        value: 2
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Procedure Name
+        value: Melee
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: SelectVariation
+    isFolded: 0
+  - hash: -1259608965
+    table:
+      intFields:
+      - name: Ticks
+        value: 2
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Procedure Name
+        value: Spear
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: AddTicks
+    isFolded: 0
+  - hash: 1436287057
+    table:
+      intFields:
+      - name: Charges Per Shield
+        value: 3
+      floatFields:
+      - name: Health Cost Per Second
+        value: 5
+      - name: Stamina To Health Ratio
+        value: -1
+      - name: Use Stamina Treshold
+        value: 0
+      - name: Health Per Charge
+        value: 15
+      - name: Stamina Per Charge
+        value: 0
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: EnrageImmediate
+    isFolded: 0
+  - hash: -928629934
+    table:
+      intFields:
+      - name: Charges Per Shield
+        value: 3
+      floatFields:
+      - name: Health Cost Per Second
+        value: 5
+      - name: Stamina To Health Ratio
+        value: 4
+      - name: Use Stamina Treshold
+        value: 10
+      - name: Health Per Charge
+        value: 15
+      - name: Stamina Per Charge
+        value: 0
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: EnrageImmediate
+    isFolded: 0
+  - hash: -1145556563
+    table:
+      intFields:
+      - name: Charges Per Shield
+        value: 3
+      floatFields:
+      - name: Health Cost Per Second
+        value: 5
+      - name: Stamina To Health Ratio
+        value: 4
+      - name: Use Stamina Treshold
+        value: 10
+      - name: Health Per Charge
+        value: 15
+      - name: Stamina Per Charge
+        value: 0
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: EnrageImmediate
+    isFolded: 0
+  tree:
+    exclude: 4b73646437a83fad1316b61e7a4f9937bffe5e2df1444b8231b1ad7bd54358be97a35e4e7be4ebb44323a959d3e169fbbc87e21d1f06db1585b0932efefcc50c51009c55523ba6c8ad31b8bb12cdb42b9a6f588d1b93b27379826ed600bccb2a
+    include: b6ff31b9e145d8a4cc38c46a5c68b97fec82f6bfc1bbf5679b9535bd8cfd109fac452f70
+    selected: -1
+    variations:
+    - exclude: 5c68b97fec82f6bf9b9535bd1f06db158cfd109fac452f70
+      include: 4b73646437a83fad7be4ebb44323a959bc87e21d85b0932e9a6f588d
+      upgrade: 0
+      upgrades:
+      - exclude: 
+        include: 1316b61e
+      - exclude: 
+        include: 7a4f9937
+    - exclude: 97a35e4ed54358be9b9535bd8cfd109fac452f70
+      include: f1444b8231b1ad7b1f06db151b93b273
+      upgrade: 0
+      upgrades:
+      - exclude: 31b1ad7b
+        include: d54358be
+      - exclude: d54358be4323a959ec82f6bf
+        include: 97a35e4ed3e169fb
+    - exclude: 8cfd109fad31b8bb523ba6c8ac452f70
+      include: 51009c5579826ed6
+      upgrade: 0
+      upgrades:
+      - exclude: 8cfd109f51009c5579826ed6
+        include: fefcc50c523ba6c812cdb42b00bccb2a
+      - exclude: 523ba6c8
+        include: ad31b8bb
+  isTreeFolded: 0
+  applyTree: 0

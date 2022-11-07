@@ -1,0 +1,385 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11e1a3c8844248b1bdb19c81c71fca5c, type: 3}
+  m_Name: Spear
+  m_EditorClassIdentifier: 
+  container: {fileID: 0}
+  name: Spear
+  processes:
+  - hash: 1182426581
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Procedure Name
+        value: Melee
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Exclusive
+    isFolded: 1
+  - hash: -1017143314
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Button
+        value: Ability
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: GetButtonDown
+    isFolded: 1
+  - hash: -1907539880
+    table:
+      intFields: []
+      floatFields:
+      - name: Cooldown
+        value: 1
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Cooldown
+    isFolded: 1
+  - hash: 178010880
+    table:
+      intFields: []
+      floatFields:
+      - name: Max Duration
+        value: 1
+      - name: Max Cost
+        value: 0
+      - name: Max Multiplier
+        value: 3
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Charge
+    isFolded: 0
+  - hash: 896311298
+    table:
+      intFields: []
+      floatFields:
+      - name: Cooldown
+        value: 2
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Cooldown
+    isFolded: 1
+  - hash: -969842847
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: State
+        value: Ball
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: PlayAnimatorState
+    isFolded: 0
+  - hash: -720870083
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: WaitForEvent
+    isFolded: 0
+  - hash: -723266305
+    table:
+      intFields: []
+      floatFields:
+      - name: Rotation OFfset
+        value: 0
+      boolFields: []
+      stringFields:
+      - name: Pivot Name
+        value: Spear Pivot
+      vector2Fields: []
+      vector3Fields: []
+      transformFields:
+      - name: Prefab
+        value: {fileID: 4916080916987844, guid: 2d539c36ce37aa94a999165ada73c63a,
+          type: 3}
+      layerMaskFields: []
+      audioClipFields: []
+    type: Instantiate
+    isFolded: 0
+  - hash: -1047428139
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: SyncDamageHandler
+    isFolded: 0
+  - hash: -2044244924
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: ApplyChargeToInstance
+    isFolded: 0
+  - hash: -976428466
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Process Name
+        value: DestroyOnDepleted
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: AddProcessToSpawn
+    isFolded: 0
+  - hash: -228564585
+    table:
+      intFields: []
+      floatFields:
+      - name: Multiplier
+        value: 0.5
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: DamageDealMultiplier
+    isFolded: 1
+  - hash: 1820430365
+    table:
+      intFields: []
+      floatFields:
+      - name: Damage
+        value: 1
+      - name: Radius
+        value: 1
+      - name: Distance
+        value: 1
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: DamageBehindTarget
+    isFolded: 0
+  - hash: -1908233013
+    table:
+      intFields: []
+      floatFields:
+      - name: Damage Per Stack
+        value: 1
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: ConsecutiveHitsDamageStacking
+    isFolded: 0
+  - hash: -2095533819
+    table:
+      intFields: []
+      floatFields:
+      - name: Rotation OFfset
+        value: 30
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Duplicate
+    isFolded: 0
+  - hash: -1143371918
+    table:
+      intFields: []
+      floatFields:
+      - name: Rotation OFfset
+        value: -30
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Duplicate
+    isFolded: 0
+  - hash: -267510565
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: ChainOnKill
+    isFolded: 1
+  - hash: 1797619639
+    table:
+      intFields: []
+      floatFields:
+      - name: Damage
+        value: 3
+      - name: Radius
+        value: 3
+      - name: MaxDamage
+        value: 3
+      - name: MinDamage
+        value: 1
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: ExplodeOnKill
+    isFolded: 1
+  - hash: -676000648
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Clip Label
+        value: Spear_0
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: PlaySound
+    isFolded: 0
+  - hash: 963606723
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Clip Label
+        value: Spear_A
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: PlaySound
+    isFolded: 0
+  - hash: 204168100
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: WaitForEvent
+    isFolded: 1
+  - hash: 865016251
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: End
+    isFolded: 1
+  tree:
+    exclude: 4b04c386e6d283c1db1c0ef0decab928f2c94c700cf167641f4c2e9f1d687428707c63d60ce02fbbb77f256b7287d9bb05b11883976160f202a06c35c8c8eb8de359b0f51d90816ccbac428e003b9c0adb9a4c79444c27864ee2ccc5c3786f39
+    include: 1d24429b7dbe1d4fee9f5fc32f5cbd0658404d8e615f31c63d6508d5c0c4d6e3bb198f33a45b2b0c
+    selected: -1
+    variations:
+    - exclude: 780cb5d7
+      include: e6d283c14b04c386707c63d60ce02fbb05b118837287d9bbc3786f39
+      upgrade: 0
+      upgrades:
+      - exclude: 
+        include: db1c0ef0decab928f2c94c70
+      - exclude: 58404d8edb1c0ef0
+        include: 1d6874281f4c2e9f0cf16764b77f256b02a06c35c8c8eb8d
+    - exclude: 58404d8e2f5cbd06
+      include: 976160f2e359b0f5
+      upgrade: 0
+      upgrades:
+      - exclude: 
+        include: 1d90816c
+      - exclude: 
+        include: cbac428e
+    - exclude: 780cb5d7
+      include: 003b9c0a444c2786
+      upgrade: 0
+      upgrades:
+      - exclude: 
+        include: db9a4c79444c2786
+      - exclude: 
+        include: 4ee2ccc5
+  isTreeFolded: 0
+  applyTree: 0

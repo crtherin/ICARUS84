@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df802507035dc6144903d30b0beb3e0f, type: 3}
+  m_Name: LevelEditor
+  m_EditorClassIdentifier: 
+  brushes:
+  - sprite: {fileID: 21300000, guid: fc644808de548f44a85a7ee0dc735023, type: 3}
+    prefab: {fileID: 5194118842703155497, guid: 7e6d5b656ae941a48bd07f4287b78901,
+      type: 3}
+  - sprite: {fileID: 21300000, guid: c145b959a69d22b4abefed1cf7e5f966, type: 3}
+    prefab: {fileID: 5194118842703155497, guid: 190dce4dc4c1931419cb0d22c609e9e0,
+      type: 3}
+  - sprite: {fileID: 21300000, guid: 7317a8f08eec5c747a4d5d46c0e5e2ca, type: 3}
+    prefab: {fileID: 4093430662130974, guid: aee4d703c0963f24b9db7a71e0bf1e15, type: 3}
+  - sprite: {fileID: 21300000, guid: 14d3bc27c14984545a2c14b6bf265833, type: 3}
+    prefab: {fileID: 4673396839891702, guid: 40a57bdda1ef6ff429319f4fd588af30, type: 3}
+  - sprite: {fileID: 21300000, guid: 951624f88ecd66f42a406bb35791f147, type: 3}
+    prefab: {fileID: 4475667579825620, guid: cd15d5c5da1f1e64fb50d610b2e9b167, type: 3}
+  - sprite: {fileID: 21300000, guid: 83e852711b4ecff42bdb325f4b343dec, type: 3}
+    prefab: {fileID: 4697852328110892252, guid: 7885a543de984f44fbd6bff6f211e42c,
+      type: 3}
+  isEnabled: 0

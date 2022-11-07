@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11e1a3c8844248b1bdb19c81c71fca5c, type: 3}
+  m_Name: Pulse Damage
+  m_EditorClassIdentifier: 
+  container: {fileID: 0}
+  name: Pulse Damage
+  processes:
+  - hash: -927677398
+    table:
+      intFields: []
+      floatFields:
+      - name: Duration
+        value: 3
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Duration
+    isFolded: 0
+  - hash: 447895239
+    table:
+      intFields: []
+      floatFields:
+      - name: Damage
+        value: 10
+      - name: Radius
+        value: 1.5
+      boolFields: []
+      stringFields: []
+      vector2Fields:
+      - name: Offset
+        value: {x: 0, y: 0}
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: DamageOnUpdate
+    isFolded: 0
+  tree:
+    exclude: 
+    include: 2ac4b4c8c756b21a
+    selected: -1
+    variations: []
+  isTreeFolded: 1
+  applyTree: 0

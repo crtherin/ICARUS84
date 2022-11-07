@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11e1a3c8844248b1bdb19c81c71fca5c, type: 3}
+  m_Name: Melee
+  m_EditorClassIdentifier: 
+  container: {fileID: 0}
+  name: Melee
+  processes:
+  - hash: -849635071
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Procedure Name
+        value: Dash
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Exclusive
+    isFolded: 0
+  - hash: -101220086
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Button
+        value: Attack
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: GetButtonDown
+    isFolded: 0
+  - hash: -1836901695
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: State
+        value: Attack
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: PlayAnimatorState
+    isFolded: 1
+  - hash: -2074363688
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: WaitForEvent
+    isFolded: 1
+  - hash: -178830795
+    table:
+      intFields: []
+      floatFields:
+      - name: Damage
+        value: 1
+      - name: Radius
+        value: 0.5
+      boolFields: []
+      stringFields: []
+      vector2Fields:
+      - name: Offset
+        value: {x: 0, y: 1.8}
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: DamageOnUpdate
+    isFolded: 1
+  - hash: -2073769000
+    table:
+      intFields:
+      - name: Max Penalty Count
+        value: 0
+      floatFields:
+      - name: Damage
+        value: 1
+      - name: Angle
+        value: 0
+      - name: Penalty Damage
+        value: 0
+      - name: Health Per Enemy
+        value: 0
+      boolFields: []
+      stringFields: []
+      vector2Fields:
+      - name: Size
+        value: {x: 3, y: 2}
+      - name: Offset
+        value: {x: 0, y: 1}
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: BoxDamageForHealth
+    isFolded: 1
+  - hash: 1287752984
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Clip Label
+        value: Melee_0
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: PlaySound
+    isFolded: 0
+  - hash: 1551739496
+    table:
+      intFields:
+      - name: Max Penalty Count
+        value: 2
+      floatFields:
+      - name: Damage
+        value: 1
+      - name: Angle
+        value: 0
+      - name: Penalty Damage
+        value: 20
+      - name: Health Per Enemy
+        value: 10
+      boolFields: []
+      stringFields: []
+      vector2Fields:
+      - name: Size
+        value: {x: 3, y: 2}
+      - name: Offset
+        value: {x: 0, y: 1}
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: BoxDamageForHealth
+    isFolded: 1
+  - hash: -443063718
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Clip Label
+        value: Melee_Enrage_B_1
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: PlaySound
+    isFolded: 0
+  - hash: 1148627597
+    table:
+      intFields: []
+      floatFields:
+      - name: Total Damage
+        value: 6
+      - name: Angle
+        value: 0
+      boolFields: []
+      stringFields: []
+      vector2Fields:
+      - name: Size
+        value: {x: 3, y: 2}
+      - name: Offset
+        value: {x: 0, y: 1}
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: BoxDamageSpread
+    isFolded: 0
+  - hash: -582254553
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Clip Label
+        value: Melee_Enrage_B_2
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: PlaySound
+    isFolded: 0
+  - hash: 602955463
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: WaitForEvent
+    isFolded: 1
+  - hash: -1785022958
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: End
+    isFolded: 1
+  tree:
+    exclude: e23eaf1dd8cb648468aa7d5c8daa764427804bdd5a6297e5
+    include: 0a81f7f91f78c9f1c11a8392d8b85b84c1a9078dc75ef02312b69a95b5680cde
+    selected: -1
+    variations:
+    - exclude: 354257f5
+      include: e23eaf1db5680cded8cb6484
+      upgrade: 0
+      upgrades:
+      - exclude: d8cb64842bc2510c188dc14c
+        include: 68aa7d5cb76ccbed5a6297e5
+      - exclude: 68aa7d5cb76ccbed5a6297e5
+        include: 8daa76442bc2510c27804bdd
+  isTreeFolded: 0
+  applyTree: 0

@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11e1a3c8844248b1bdb19c81c71fca5c, type: 3}
+  m_Name: Spear Projectile
+  m_EditorClassIdentifier: 
+  container: {fileID: 0}
+  name: Spear Projectile
+  processes:
+  - hash: 87072314
+    table:
+      intFields: []
+      floatFields:
+      - name: Speed
+        value: 10
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Move
+    isFolded: 0
+  - hash: -1707866373
+    table:
+      intFields:
+      - name: Rate Per Second
+        value: 30
+      floatFields:
+      - name: Damage
+        value: 1
+      - name: Angle
+        value: 0
+      boolFields: []
+      stringFields: []
+      vector2Fields:
+      - name: Size
+        value: {x: 0.25, y: 1}
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: BoxDamage
+    isFolded: 0
+  - hash: -956464733
+    table:
+      intFields: []
+      floatFields:
+      - name: Force Multiplier
+        value: 100
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Knockback
+    isFolded: 0
+  - hash: 2005518697
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: DestroyOnCollision
+    isFolded: 0
+  tree:
+    exclude: 
+    include: 3a9e3005e0bc07b543c3395573eadd336e5ea9a336abeaac625e7243b64b717bfb06349a85291f0569c98977
+    selected: -1
+    variations: []
+  isTreeFolded: 0
+  applyTree: 0

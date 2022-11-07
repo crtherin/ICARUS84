@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e35faafab3488b95c975c3e0523435, type: 3}
+  m_Name: Player Data
+  m_EditorClassIdentifier: 
+  root:
+    name: Root
+    dataTable:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    children:
+    - name: Character Motor
+      dataTable:
+        intFields: []
+        floatFields:
+        - name: Speed
+          value: 10
+        - name: Acceleration
+          value: 100
+        - name: Deceleration
+          value: 100
+        - name: Rotation Smooth Time
+          value: 0.2
+        - name: Rotation Max Speed
+          value: 1000
+        boolFields: []
+        stringFields: []
+        vector2Fields: []
+        vector3Fields: []
+        transformFields: []
+        layerMaskFields: []
+        audioClipFields: []
+      children: []
+    - name: Damage Handler
+      dataTable:
+        intFields: []
+        floatFields:
+        - name: Max Health
+          value: 100
+        boolFields: []
+        stringFields: []
+        vector2Fields: []
+        vector3Fields: []
+        transformFields: []
+        layerMaskFields:
+        - name: Default Mask
+          value:
+            serializedVersion: 2
+            m_Bits: 2
+        - name: Mask
+          value:
+            serializedVersion: 2
+            m_Bits: 192
+        audioClipFields: []
+      children: []
+    - name: Health Handler
+      dataTable:
+        intFields: []
+        floatFields:
+        - name: Max Health
+          value: 100
+        boolFields: []
+        stringFields: []
+        vector2Fields: []
+        vector3Fields: []
+        transformFields: []
+        layerMaskFields: []
+        audioClipFields: []
+      children: []
+    - name: Stamina Handler
+      dataTable:
+        intFields: []
+        floatFields:
+        - name: Max Stamina
+          value: 200
+        boolFields: []
+        stringFields: []
+        vector2Fields: []
+        vector3Fields: []
+        transformFields: []
+        layerMaskFields: []
+        audioClipFields: []
+      children: []
+    - name: Camera Controller
+      dataTable:
+        intFields: []
+        floatFields:
+        - name: Smooth Time
+          value: 0.5
+        - name: Max Speed
+          value: 10000
+        - name: Distance
+          value: 10
+        - name: Prediction Modifier
+          value: 5
+        - name: Prediction Max Distance
+          value: 0
+        - name: Direction Distance
+          value: 5
+        - name: Follow Smooth Time
+          value: 0.25
+        - name: Follow Max Speed
+          value: 100
+        - name: Follow Max Distance
+          value: 5
+        - name: Rotation Smooth Time
+          value: 0.5
+        - name: Rotation Max Speed
+          value: 15
+        - name: Rotation Distance
+          value: 0
+        - name: Prediction Multiplier
+          value: 0
+        - name: Prediction Smooth Time
+          value: 1
+        - name: Prediction Max Speed
+          value: 50
+        - name: Follow Smooth Max Speed
+          value: 20
+        - name: Rotation Smooth Max Speed
+          value: 15
+        - name: Prediction Smooth Max Speed
+          value: 10
+        boolFields: []
+        stringFields: []
+        vector2Fields: []
+        vector3Fields: []
+        transformFields: []
+        layerMaskFields: []
+        audioClipFields: []
+      children: []

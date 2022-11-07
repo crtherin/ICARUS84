@@ -1,0 +1,424 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11e1a3c8844248b1bdb19c81c71fca5c, type: 3}
+  m_Name: Dash
+  m_EditorClassIdentifier: 
+  container: {fileID: 0}
+  name: Dash
+  processes:
+  - hash: -595011866
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Procedure Name
+        value: Melee
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Exclusive
+    isFolded: 0
+  - hash: -285303916
+    table:
+      intFields: []
+      floatFields:
+      - name: Max Health
+        value: 1
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: SetMaxHealth
+    isFolded: 1
+  - hash: 516801662
+    table:
+      intFields:
+      - name: Count
+        value: 1
+      floatFields: []
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: AddShield
+    isFolded: 1
+  - hash: 1484597487
+    table:
+      intFields:
+      - name: Count
+        value: 2
+      floatFields: []
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: AddShield
+    isFolded: 1
+  - hash: 1207910111
+    table:
+      intFields: []
+      floatFields:
+      - name: Multiplier
+        value: 2
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: PassiveDamageDealMultiplier
+    isFolded: 1
+  - hash: 1226998864
+    table:
+      intFields: []
+      floatFields:
+      - name: Multiplier
+        value: 4
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: PassiveDamageDealMultiplier
+    isFolded: 1
+  - hash: 1547770940
+    table:
+      intFields: []
+      floatFields:
+      - name: Shield Cooldown
+        value: 20
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: RegenerateShield
+    isFolded: 1
+  - hash: 2080843465
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Button
+        value: Dash
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: GetButtonDown
+    isFolded: 1
+  - hash: -1533736560
+    table:
+      intFields: []
+      floatFields:
+      - name: Cooldown
+        value: 3
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Cooldown
+    isFolded: 1
+  - hash: 1404244060
+    table:
+      intFields: []
+      floatFields:
+      - name: Duration
+        value: 0.5
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Duration
+    isFolded: 0
+  - hash: -1975574483
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Clip Label
+        value: Dash_0
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: PlaySound
+    isFolded: 0
+  - hash: -1704145199
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Clip Label
+        value: Dash_A
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: PlaySound
+    isFolded: 0
+  - hash: -601426332
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Clip Label
+        value: Dash_B
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: PlaySound
+    isFolded: 0
+  - hash: 1980353567
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Clip Label
+        value: Dash_C
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: PlaySound
+    isFolded: 0
+  - hash: -382921880
+    table:
+      intFields: []
+      floatFields: []
+      boolFields: []
+      stringFields:
+      - name: Procedure Name
+        value: Melee
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Callback
+    isFolded: 1
+  - hash: -196300346
+    table:
+      intFields: []
+      floatFields:
+      - name: Duration
+        value: 5
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Duration
+    isFolded: 1
+  - hash: 2108011540
+    table:
+      intFields: []
+      floatFields:
+      - name: Distance
+        value: 15
+      - name: Phase Start Distance
+        value: 1
+      - name: Phase End Distance
+        value: 5
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: Dash
+    isFolded: 0
+  - hash: 940919067
+    table:
+      intFields: []
+      floatFields:
+      - name: Multiplier
+        value: 4
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: SpeedMultiplier
+    isFolded: 1
+  - hash: -1885975990
+    table:
+      intFields: []
+      floatFields:
+      - name: Multiplier
+        value: 0.1
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: DamageReceiveMultiplier
+    isFolded: 1
+  - hash: 373383614
+    table:
+      intFields:
+      - name: Rate Per Second
+        value: 30
+      floatFields:
+      - name: Damage
+        value: 3
+      - name: Radius
+        value: 1
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: CircleDamage
+    isFolded: 1
+  - hash: -2064216188
+    table:
+      intFields:
+      - name: Rate Per Second
+        value: 30
+      floatFields:
+      - name: Damage
+        value: 3
+      - name: Radius
+        value: 1.25
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: CircleDamage
+    isFolded: 1
+  - hash: -1688087972
+    table:
+      intFields: []
+      floatFields:
+      - name: Percentage Increase
+        value: 5
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: DamageStacking
+    isFolded: 1
+  - hash: 1639473526
+    table:
+      intFields: []
+      floatFields:
+      - name: Damage
+        value: 1
+      - name: Radius
+        value: 1
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: DamageOnStart
+    isFolded: 1
+  - hash: 449823463
+    table:
+      intFields: []
+      floatFields:
+      - name: Damage
+        value: 1
+      - name: Radius
+        value: 1
+      boolFields: []
+      stringFields: []
+      vector2Fields: []
+      vector3Fields: []
+      transformFields: []
+      layerMaskFields: []
+      audioClipFields: []
+    type: DamageOnStop
+    isFolded: 1
+  tree:
+    exclude: 8e7dbd4b949bfeee7ec4cd1e3c1c415cef287d58df3eff47508422491b4915384a4a968fbe614116848ff6845cd2619bd226a9d27661b861e7c2cf1ac6b14cf468132de9d1ce6c9a64f626dc1fcc0976
+    include: 
+    selected: 2
+    variations:
+    - exclude: ef287d58508422492d203f8a
+      include: 949bfeee900995a47ec4cd1e3c1c415cdf3eff4768132de9d1ce6c9a
+      upgrade: 2
+      upgrades:
+      - exclude: 7ec4cd1e
+        include: ef287d58
+      - exclude: df3eff47
+        include: 50842249
+    - exclude: 14b4a57d848ff6845c10b3532d203f8a
+      include: 1b4915384a4a968fbe614116c6b14cf464f626dc
+      upgrade: 0
+      upgrades:
+      - exclude: 
+        include: 5cd2619b
+      - exclude: be614116
+        include: 848ff684
+    - exclude: 900995a42d203f8a
+      include: 1fcc0976
+      upgrade: 2
+      upgrades:
+      - exclude: 2d203f8a
+        include: d226a9d27661b8611fcc0976
+      - exclude: 7661b861
+        include: e7c2cf1a
+  isTreeFolded: 0
+  applyTree: 0
